@@ -5,6 +5,7 @@ const App = () => {
   const [response, setResponse] = React.useState(undefined);
   const [questions, setQuestions] = React.useState(undefined);
   const [index, setIndex] = React.useState(0);
+  const [result, setResult] = React.useState(0);
 
   async function handleFetch() {
     const r = await fetch("./questions.json");
@@ -16,9 +17,21 @@ const App = () => {
     handleFetch();
   }, []);
 
+  function handleClick() {
+    if (response === questions[index].response) {
+      setResult(result + 1);
+      setResponse(undefined);
+      setIndex(index + 1);
+    } else {
+      setResponse(undefined);
+      setIndex(index + 1);
+    }
+  }
+
   return (
     <>
       <span>Quiz JavaScript</span>
+      <p>{questions && questions[index].question}</p>
       {questions && (
         <Radio
           value={response}
@@ -27,7 +40,7 @@ const App = () => {
           setValue={setResponse}
         />
       )}
-      {response}
+      <button onClick={handleClick}>Próximo</button>
     </>
   );
 };
