@@ -128,7 +128,7 @@
   {
     "question": "Para que serve uma API?",
     "options": [
-      "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação ",
+      "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação",
       "Verificar se um valor existe no banco de dados",
       "Salvar dados na memória"
     ],
@@ -181,28 +181,28 @@
   },
   {
     "question": "Qual operador nega um valor?",
-    "options": [":?", "!", ";"],
-    "response": "!"
+    "options": [" ?", " !", " ;"],
+    "response": " !"
   },
   {
-    "question": "Como iniciar uma array?",
-    "options": ["()", "{}", "[]"],
-    "response": "[]"
+    "question": "Como definir uma array?",
+    "options": ["( )", "{ }", "[ ]"],
+    "response": "[ ]"
   },
   {
-    "question": "Como iniciar um objeto?",
-    "options": ["()", "{}", "[]"],
-    "response": "{}"
+    "question": "Como definir um objeto?",
+    "options": ["( )", "{ }", "[ ]"],
+    "response": "{ }"
   },
   {
     "question": "Como priorizar uma expressão?",
-    "options": ["()", "{}", "[]"],
-    "response": "()"
+    "options": ["( )", "{ }", "[ ]"],
+    "response": "( )"
   },
   {
     "question": "Qual função adiciona eventos?",
     "options": ["addEvents()", "addEventListener()", "addCallback()"],
-    "response": "addEvents()"
+    "response": "addEventListener()"
   },
   {
     "question": "É uma palavra chave usada em funções:",
