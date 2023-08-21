@@ -1,0 +1,76 @@
+/* import font */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* Var */
+
+:root {
+  --bg-color: #1f1f1f;
+  --color-text: #dfdfdf;
+  --button-color: #006fb9;
+  --button-hover: #033f68;
+}
+
+/* Reset */
+
+*,
+*::after,
+*::before {
+  color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  transition: 0.3s;
+}
+
+/* Body */
+body {
+  background-color: var(--bg-color);
+}
+
+/* root */
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;
+  padding-inline: 20px;
+}
+
+/* buttons */
+
+.btn {
+  background-color: var(--button-color);
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--button-hover);
+}
+
+/* intro - first page */
+
+.intro-title {
+  font-size: 3rem;
+}
+.intro-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* intro - responsive */
+
+@media (max-width: 600px) {
+  .intro-title {
+    font-size: 2rem;
+  }
+  .intro-text {
+    font-size: 1rem;
+  }
+}
