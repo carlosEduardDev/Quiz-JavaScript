@@ -1,21 +1,29 @@
 import React from "react";
 
-const Radio = ({ responses, id, value, setValue }) => {
+const Radio = ({ responses, id, value, setValue, setElement }) => {
+  const [optionsSort, setOptionsSort] = React.useState([]);
+
+  React.useEffect(() => {
+    const sort = responses.sort(() => Math.random() - 0.5);
+    setOptionsSort([...sort]);
+  }, [responses]);
+
   return (
-    <>
-      {responses.map((response) => (
-        <label key={response} htmlFor={id}>
+    <div className="container-options">
+      {optionsSort.map((response) => (
+        <label className="options" key={response} htmlFor={id}>
           <input
-          value={response}
+            value={response}
             checked={value === response}
             type="radio"
             id={id}
             onChange={() => setValue(response)}
+            onClick={(e) => setElement(e.target.parentElement)}
           />
           {response}
         </label>
       ))}
-    </>
+    </div>
   );
 };
 

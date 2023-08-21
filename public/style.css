@@ -9,6 +9,7 @@
   --color-text: #dfdfdf;
   --button-color: #006fb9;
   --button-hover: #033f68;
+  --q-color: #272727;
 }
 
 /* Reset */
@@ -36,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  gap: 20px;
+  gap: 40px;
   padding-inline: 20px;
 }
 
@@ -53,6 +54,11 @@ body {
 .btn:hover {
   background-color: var(--button-hover);
 }
+.btn[disabled] {
+  background-color: var(--q-color);
+  color: grey;
+  cursor: default;
+}
 
 /* intro - first page */
 
@@ -64,13 +70,83 @@ body {
   text-align: center;
 }
 
-/* intro - responsive */
+/* detail - current question counter */
+
+.detail {
+  font-size: 1.5rem;
+  border: 2px solid var(--button-color);
+  padding: 5px 10px;
+  position: fixed;
+  top: 25px;
+}
+
+/* question  */
+
+.question {
+  font-size: 1.5rem;
+}
+
+/* options - answer options */
+
+.container-options {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.options {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  background-color: var(--q-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+.options:hover {
+  background-color: var(--button-color);
+}
+
+/* credits */
+
+.credits{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  gap: 30px;
+  bottom: 25px;
+}
+.credits .name{
+  color: var(--button-color);
+}
+.credits a{
+  background-image: url(./github.png);
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  filter: invert(100%);
+}
+.credits a:hover{
+  filter: invert(70%);
+}
+
+/* responsive */
 
 @media (max-width: 600px) {
   .intro-title {
     font-size: 2rem;
   }
-  .intro-text {
+  .intro-text,
+  .btn {
     font-size: 1rem;
+  }
+  .detail,
+  .question {
+    font-size: 1.1rem;
+  }
+  .container-options {
+    width: 100%;
   }
 }
