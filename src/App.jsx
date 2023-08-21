@@ -3,6 +3,7 @@ import Radio from "./Radio";
 import Question from "./Question";
 import Button from "./Button";
 import Initial from "./Initial";
+import Final from "./Final";
 
 const App = () => {
   const [initial, setInitial] = React.useState(true);
@@ -21,7 +22,8 @@ const App = () => {
     handleFetch();
   }, []);
 
- if(initial) return <Initial setInitial={setInitial}/>
+  if (initial) return <Initial setInitial={setInitial} />;
+  if (index === 10) return <Final setIndex={setIndex} result={result} />;
   return (
     <>
       <span>Quiz JavaScript</span>
