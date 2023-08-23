@@ -25,8 +25,8 @@ const App = () => {
   }, []);
 
   React.useEffect(() => {
-    if (response) setDisabled(false);
-    else setDisabled(true);
+    if (response) return setDisabled(false);
+    return setDisabled(true);
   }, [response]);
 
   if (initial) return <Initial setInitial={setInitial} />;
@@ -64,6 +64,7 @@ const App = () => {
         setIndex={setIndex}
         result={result}
         element={elementClicked}
+        setDisabled={setDisabled}
       />
     </>
   );

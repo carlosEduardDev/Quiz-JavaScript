@@ -17,7 +17,9 @@ const Radio = ({ responses, id, value, setValue, setElement }) => {
             checked={value === response}
             type="radio"
             id={id}
-            onChange={() => setValue(response)}
+            onChange={() => {
+              if (response) setValue(response);
+            }}
             onClick={(e) => setElement(e.target.parentElement)}
           />
           {response}
