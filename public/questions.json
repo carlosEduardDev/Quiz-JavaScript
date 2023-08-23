@@ -81,7 +81,7 @@
   },
   {
     "question": "Numa função assincrona, quais são as palavras especiais reservadas?",
-    "options": ["assync", "await", "ambas"],
+    "options": ["async", "await", "ambas"],
     "response": "ambas"
   },
   {
