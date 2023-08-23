@@ -1,212 +1,152 @@
 [
   {
-    "question": "Como definimos uma variável que seu valor não pode ser alterado?",
-    "options": ["var", "let", "const"],
-    "response": "const"
+  "question": "Como definimos uma variável que seu valor não pode ser alterado?",
+  "options": ["var", "let", "const"],
+  "response": "const"
+  },
+   {
+  "question": "Qual função seleciona todos os itens de mesma tag, classe ou id?",
+  "options": ["getElement()", "querySelector()", "querySelectorAll()"],
+  "response": "querySelectorAll()"
+  },
+   {
+  "question": "JavaScript é uma linguagem:",
+  "options": ["Interpretada pelo navegador", "Compilada para ser interpretada pelo navegador", "Ambas estão corretas"],
+  "response": "Interpretada pelo navegador"
+  },
+   {
+  "question": "O this, no escopo global, faz referência a:",
+  "options": ["Sua função pai", "O bloco de código a cima", "Window"],
+  "response": "Window"
   },
   {
-    "question": "Qual função seleciona todos os itens de mesma tag, classe ou id?",
-    "options": ["getElement()", "querySelector()", "querySelectorAll()"],
-    "response": "querySelectorAll()"
+   "question": "O this, numa constructor function, faz referência a:",
+  "options": ["A própria constructor function", "O bloco de código a cima", "Window"],
+  "response": "A própria constructor function"
   },
   {
-    "question": "JavaScript é uma linguagem:",
-    "options": [
-      "Interpretada pelo navegador",
-      "Compilada para ser interpretada pelo navegador",
-      "Ambas estão corretas"
-    ],
-    "response": "Interpretada pelo navegador"
+   "question": "() => {} , isso é:",
+  "options": ["constructor function", "function declaration", "arrow function"],
+  "response": "arrow function"
   },
   {
-    "question": "O this, no escopo global, faz referência a:",
-    "options": ["Sua função pai", "O bloco de código a cima", "Window"],
-    "response": "Window"
+       "question": "Qual função muda ordem de arrays?",
+  "options": ["sort()", "position()", "embaralhar()"],
+  "response": "sort()"
   },
   {
-    "question": "O this, numa constructor function, faz referência a:",
-    "options": [
-      "A própria constructor function",
-      "O bloco de código a cima",
-      "Window"
-    ],
-    "response": "A própria constructor function"
+   "question": "Como mostrar algo no console?",
+  "options": ["console.log()", "error()", "console.print()"],
+  "response": "console.log()"
   },
   {
-    "question": "() => {} , isso é:",
-    "options": [
-      "constructor function",
-      "function declaration",
-      "arrow function"
-    ],
-    "response": "arrow function"
+   "question": "Oque é o localStorage?",
+  "options": ["API do JavaScript que salva dados na memória", "Função que armazena funções matemáticas", "API do JavaScript que cria um banco de dados local"],
+  "response": "API do JavaScript que salva dados na memória"
   },
   {
-    "question": "Qual função muda ordem de arrays?",
-    "options": ["sort()", "position()", "embaralhar()"],
-    "response": "sort()"
+   "question": "Oque significa JSON?",
+  "options": ["JavaScript Object Native", "JavaScript Operation New", "JavaScript Object Notes"],
+  "response": "JavaScript Object Notes"
   },
   {
-    "question": "Como mostrar algo no console?",
-    "options": ["console.log()", "error()", "console.print()"],
-    "response": "console.log()"
+   "question": "Propriedade que retorna tamanho de array, string, etc",
+  "options": ["comprime", "innerWidth", "length"],
+  "response": "length"
   },
   {
-    "question": "Oque é o localStorage?",
-    "options": [
-      "API do JavaScript que salva dados na memória",
-      "Função que armazena funções matemáticas",
-      "API do JavaScript que cria um banco de dados local"
-    ],
-    "response": "API do JavaScript que salva dados na memória"
+   "question": "Como criar um objeto com a data,hora,etc atual?",
+  "options": ["new Date()", "new Hours()", "createCalendary()"],
+  "response": "new Date()"
   },
   {
-    "question": "Oque significa JSON?",
-    "options": [
-      "JavaScript Object Native",
-      "JavaScript Operation New",
-      "JavaScript Object Notes"
-    ],
-    "response": "JavaScript Object Notes"
+   "question": "Numa função assincrona, quais são as palavras especiais reservadas?",
+  "options": ["async", "await", "ambas"],
+  "response": "ambas"
   },
   {
-    "question": "Propriedade que retorna tamanho de array, string, etc",
-    "options": ["comprime", "innerWidth", "length"],
-    "response": "length"
-  },
-  {
-    "question": "Como criar um objeto com a data,hora,etc atual?",
-    "options": ["new Date()", "new Hours()", "createCalendary()"],
-    "response": "new Date()"
-  },
-  {
-    "question": "Numa função assincrona, quais são as palavras especiais reservadas?",
-    "options": ["async", "await", "ambas"],
-    "response": "ambas"
-  },
-  {
-    "question": "Como gerar um número aleatório?",
-    "options": ["Math.number()", "Math.getRandom()", "Math.random()"],
-    "response": "Math.random()"
+   "question": "Como gerar um número aleatório?",
+   "options": ["Math.number()", "Math.getRandom()", "Math.random()"],
+   "response": "Math.random()"
   },
   {
     "question": "Para que serve o If Else",
-    "options": [
-      "Condicionar o fluxo do seu código",
-      "Verificar se um valor é true ou false",
-      "Não existe If Else em JavaScript"
-    ],
-    "response": "Condicionar o fluxo do seu código"
+  "options": ["Condicionar o fluxo do seu código", "Verificar se um valor é true ou false", "Não existe If Else em JavaScript"],
+  "response": "Condicionar o fluxo do seu código"
   },
-  {
-    "question": "Oque faz o typeof ?",
-    "options": [
-      "Verifica o tipo de um valor",
-      "Verifica se o valor é igual outro valor",
-      "Os dois estão corretos"
-    ],
-    "response": "Verifica o tipo de um valor"
+   {
+    "question":"Oque faz o typeof ?",
+  "options": ["Verifica o tipo de um valor", "Verifica se o valor é igual outro valor", "Os dois estão corretos"],
+  "response": "Verifica o tipo de um valor"
   },
-  {
+   {
     "question": "Para que serve o countLet?",
-    "options": [
-      "Conta quantas vezes a variavel foi usada",
-      "Possibilita trocar o valor de const",
-      "Não existe countLet em JavaScript"
-    ],
-    "response": "Não existe countLet em JavaScript"
+  "options": ["Conta quantas vezes a variavel foi usada", "Possibilita trocar o valor de const", "Não existe countLet em JavaScript"],
+  "response": "Não existe countLet em JavaScript"
   },
-  {
+   {
     "question": "Dois textos somados geram:",
-    "options": [
-      "Retorna um texto único que junta os dois",
-      "Retorna o erro não é um número (NaN)",
-      "Não executa a função e não retorna nada"
-    ],
-    "response": "Retorna um texto único que junta os dois"
+  "options": ["Retorna um texto único que junta os dois", "Retorna o erro não é um número (NaN)", "Não executa a função e não retorna nada"],
+  "response": "Retorna um texto único que junta os dois"
   },
   {
     "question": "Para que serve uma API?",
-    "options": [
-      "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação",
-      "Verificar se um valor existe no banco de dados",
-      "Salvar dados na memória"
-    ],
-    "response": "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação"
+  "options": ["Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação ", "Verificar se um valor existe no banco de dados", "Salvar dados na memória"],
+  "response": "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação"
   },
-  {
+   {
     "question": "Oque significa API",
-    "options": [
-      "Association of JavaScript",
-      "Aplication Programing Interface",
-      "Aplication Portable Interface"
-    ],
-    "response": "Aplication Programing Interface"
+  "options": ["Association of JavaScript", "Aplication Programing Interface", "Aplication Portable Interface"],
+  "response": "Aplication Programing Interface"
   },
-  {
+   {
     "question": "Oque o operador = faz?",
-    "options": [
-      "Atribui valor",
-      "Verifica se o valor é igual",
-      "Verifica se o valor e tipo é igual"
-    ],
-    "response": "Atribui valor"
+  "options": ["Atribui valor", "Verifica se o valor é igual", "Verifica se o valor e tipo são iguais"],
+  "response": "Atribui valor"
   },
-  {
+   {
     "question": "Oque o operador == faz?",
-    "options": [
-      "Atribui valor",
-      "Verifica se o valor é igual",
-      "Verifica se o valor e tipo é igual"
-    ],
-    "response": "Verifica se o valor é igual"
+  "options": ["Atribui valor", "Verifica se o valor é igual", "Verifica se o valor e tipo são iguais"],
+  "response": "Verifica se o valor é igual"
   },
-  {
+   {
     "question": "Oque o operador === faz?",
-    "options": [
-      "Atribui valor",
-      "Verifica se o valor é igual",
-      "Verifica se o valor e tipo é igual"
-    ],
-    "response": "Verifica se o valor e tipo é igual"
+  "options": ["Atribui valor", "Verifica se o valor é igual", "Verifica se o valor e tipo são iguais"],
+  "response": "Verifica se o valor e tipo são iguais"
   },
-  {
+   {
     "question": "Oque significa DOM",
-    "options": [
-      "Document Object Model",
-      "Developer Object Model",
-      "Document On Mouse"
-    ],
-    "response": "Document Object Model"
+  "options": ["Document Object Model", "Developer Object Model", "Document On Mouse"],
+  "response": "Document Object Model"
   },
-  {
+   {
     "question": "Qual operador nega um valor?",
-    "options": [" ?", " !", " ;"],
-    "response": " !"
+  "options": [":?", "!", ";"],
+  "response": "!"
+  }, 
+   {
+    "question": "Como iniciar uma array?",
+  "options": ["()", "{}", "[]"],
+  "response": "[]"
   },
-  {
-    "question": "Como definir uma array?",
-    "options": ["( )", "{ }", "[ ]"],
-    "response": "[ ]"
+   {
+    "question": "Como iniciar um objeto?",
+  "options": ["()", "{}", "[]"],
+  "response": "{}"
   },
-  {
-    "question": "Como definir um objeto?",
-    "options": ["( )", "{ }", "[ ]"],
-    "response": "{ }"
-  },
-  {
+   {
     "question": "Como priorizar uma expressão?",
-    "options": ["( )", "{ }", "[ ]"],
-    "response": "( )"
+  "options": ["()", "{}", "[]"],
+  "response": "()"
   },
-  {
+   {
     "question": "Qual função adiciona eventos?",
-    "options": ["addEvents()", "addEventListener()", "addCallback()"],
-    "response": "addEventListener()"
+  "options": ["addEvents()", "addEventListener()", "addCallback()"],
+  "response": "addEvents()"
   },
-  {
+   {
     "question": "É uma palavra chave usada em funções:",
-    "options": ["return", "explicit", "toEnd"],
-    "response": "return"
+  "options": ["return", "explicit", "toEnd"],
+  "response": "return"
   }
 ]
