@@ -91,7 +91,7 @@
   },
   {
     "question": "Para que serve uma API?",
-  "options": ["Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação ", "Verificar se um valor existe no banco de dados", "Salvar dados na memória"],
+  "options": ["Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação", "Verificar se um valor existe no banco de dados", "Salvar dados na memória"],
   "response": "Setar ou Puxar informações de um banco de dados e utilizar na nossa aplicação"
   },
    {
