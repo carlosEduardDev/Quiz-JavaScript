@@ -4,8 +4,8 @@ const Radio = ({ responses, id, value, setValue, setElement }) => {
   const [optionsSort, setOptionsSort] = React.useState([]);
 
   React.useEffect(() => {
-    const sort = responses.sort(() => Math.random() - 0.5);
-    setOptionsSort([...sort]);
+    const optionsSorts = responses.sort(() => Math.random() - 0.5);
+    setOptionsSort([...optionsSorts]);
   }, [responses]);
 
   return (

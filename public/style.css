@@ -54,7 +54,7 @@ body {
 .btn:hover {
   background-color: var(--button-hover);
 }
-.btn[disabled] {
+.btn[disabled], [disabled] {
   background-color: var(--q-color);
   color: grey;
   cursor: default;

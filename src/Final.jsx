@@ -5,6 +5,7 @@ const Final = ({ result, setIndex, setQuestions, setResult }) => {
     <>
       <h1 className="intro-title">Obrigado por jogar</h1>
       <p className="intro-text">Você acertou {result} de 10 perguntas</p>
+      <p className="intro-text">Jogue novamente para responder a novas perguntas!</p>
       <button
         className="btn"
         onClick={() => {
@@ -21,7 +22,8 @@ const Final = ({ result, setIndex, setQuestions, setResult }) => {
         </p>
         <a
           href="https://github.com/carlosEduardDev/Quiz-JavaScript"
-          rel="noopener"
+          target="_blank"
+          rel="noreferrer"
           className="github"
         ></a>
       </div>
