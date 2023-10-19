@@ -142,7 +142,7 @@
    {
     "question": "Qual função adiciona eventos?",
   "options": ["addEvents()", "addEventListener()", "addCallback()"],
-  "response": "addEvents()"
+  "response": "addEventListener()"
   },
    {
     "question": "É uma palavra chave usada em funções:",
